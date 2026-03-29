@@ -1,8 +1,3 @@
-function submitForm() {
-    document.getElementById('contact-form').submit();
-    return window.location.href = "thanks.html";
-}
-
 $(document).ready(function () {
     $(".menu-trigger").click(function () {
         $(this).toggleClass('active');
